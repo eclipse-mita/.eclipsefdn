@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-mita') {
+orgs.newOrg('iot.mita', 'eclipse-mita') {
   settings+: {
     description: "",
     name: "Eclipse Mita",
